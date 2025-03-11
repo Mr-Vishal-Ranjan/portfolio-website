@@ -27,13 +27,17 @@ export const mainToolsLogos = [
     name: 'Redux',
     img: '/assets/logos/redux.png',
   },
-];
-
-export const currentlyLearningLogos = [
   {
     name: 'Framer Motion',
     img: '/assets/logos/framer-motion.png',
   },
+];
+
+export const currentlyLearningLogos = [
+  // {
+  //   name: 'Framer Motion',
+  //   img: '/assets/logos/framer-motion.png',
+  // },
 ];
 
 export const uiuxLogos = [
@@ -48,7 +52,10 @@ export const appsLogos = [
     name: 'VSCode',
     img: '/assets/logos/vscode.png',
   },
-
+  {
+    name: 'Intellij Idea',
+    img: '/assets/logos/intellij-idea.svg',
+  },
 ];
 
 export const otherToolsLogos = [

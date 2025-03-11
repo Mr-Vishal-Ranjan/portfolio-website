@@ -20,7 +20,7 @@ export default function Footer() {
     // },
     {
       name: 'Resume',
-      link: '#', //TODO : ADD LINK
+      link: '/resume', 
     },
   ];
 
@@ -41,7 +41,7 @@ export default function Footer() {
 
   const socialsDisplay = socials.map(({ name, link }) => (
     <li key={name}>
-      <a href={link} target="_blank" rel="noopener noreferrer">
+      <a href={link} rel="noopener noreferrer">
         {name}
       </a>
     </li>

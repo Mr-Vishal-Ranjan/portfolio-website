@@ -10,7 +10,7 @@ export default function Nav() {
     // { name: 'Projects', path: '/#projects' },
     { name: 'Experience', path: '/#experience' },
     { name: 'Contact', path: '/#contact' },
-    { name: 'Resume', path: '#'} //TODO : ADD RESUME LINK
+    { name: 'Resume', path: '/resume'}
   ];
 
   const navVariants: Variants = {
