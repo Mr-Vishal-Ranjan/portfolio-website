@@ -4,11 +4,11 @@ import Container from '../components/Container';
 
 const resume = () => {
   return (
-    <>
-      <Container>
-        <ResumeViewer />
-      </Container>
-    </>
+    <Container>
+      <>
+      </>
+      <ResumeViewer />
+    </Container>
   );
 };
 
